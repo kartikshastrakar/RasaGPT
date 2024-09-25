@@ -69,17 +69,21 @@ Getting started is easy, just make sure you meet the dependencies below.
 <br/>
 
 ```bash
-# Get the code
+# Clone the repository
 git clone https://github.com/paulpierre/RasaGPT.git
 cd RasaGPT
 
-## Setup the .env file
+# Copy the example .env file to create a new .env file
 cp .env-example .env
 
-# Edit your .env file and add all the necessary credentials
+# Edit the .env file to add the necessary credentials
+# You can use a text editor like nano or vim to make the edits
+nano .env
+
+# Install all necessary dependencies
 make install
 
-# Type "make" to see more options
+# To see more available make commands, run:
 make
 ```
 
